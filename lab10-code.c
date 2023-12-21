@@ -76,7 +76,7 @@ int main() {
         rand_num_array[i] = rand() / 10;
         rand_num_array[i]=i;
     }
-    ///lollo
+    ///lollol
     pthread_t t_id[N_THREADS];
     for (int i = 0; i < N_THREADS; i++) {
         pthread_create(&t_id[i], NULL, inc_thread_optimized, (void *)i);
